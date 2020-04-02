@@ -2,9 +2,9 @@ let num1 = Math.floor(Math.random() * 500);
 let num2 = Math.floor(Math.random() * 500)
 
 if (num1 == num2){
-  alert("yay!")
+  alert("they're equal!")
 } else if(num1>num2){
-  alert("yay!")
+  alert("the second number is greater than the first")
 } else{
-  alert("sorry these aren't equal you lose :(")
+  alert("the first number is greater than the second")
 }
